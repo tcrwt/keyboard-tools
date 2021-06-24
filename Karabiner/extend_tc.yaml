@@ -1,0 +1,95 @@
+---
+title: 'Colemak Extend (Python Generated) - TC'
+description: 'Extend Mode [Caps Lock as Trigger Key]'
+version: 1.0
+author: tc
+homepage: https://github.com/mattmc3/colemak-tools/tree/master/Karabiner
+extend-modifier: caps_lock
+extend-alone-action: delete
+keyboard: colemak
+mouse-move-distance: 1500
+mouse-scroll-distance: 50
+natural-scrolling: false
+mappings:
+    # function row Mac
+    - ['f1', 'f1']
+    - ['f2', 'f2']
+    - ['f3', 'f3']
+    - ['f4', 'f4']
+    - ['f5', 'f5']
+    - ['f6', 'f6']
+    - ['f7', 'f7']
+    - ['f8', 'f8']
+    - ['f9', 'f9']
+    - ['f10', 'f10']
+    - ['f11', 'f11']
+    - ['f12', 'f12']
+
+    # function row extend
+    # - ['f1', 'play_or_pause']
+    # - ['f2', 'rewind']
+    # - ['f3', 'fastforward']
+    # - ['f5', 'mute']
+    # - ['f6', 'volume_decrement']
+    # - ['f7', 'volume_increment']
+    # - ['f6', 'display_brightness_decrement']
+    # - ['f7', 'display_brightness_increment']
+
+    # number row Mac
+    # - ['`', 'CMD-s']  # user custom - save example
+    - ['1', 'display_brightness_decrement']
+    - ['2', 'display_brightness_increment']
+    - ['3', 'mission_control']
+    - ['4', 'launchpad']
+    - ['5', 'illumination_decrement']
+    - ['6', 'illumination_increment']
+    - ['7', 'rewind']
+    - ['8', 'play_or_pause']
+    - ['9', 'fastforward']
+    - ['0', 'mute']
+    - ['-', 'volume_decrement']
+    - ['=', 'volume_increment']
+
+    # system
+    - [q, esc]
+    - ['[', esc]
+    - [']', ins]
+    - [space, return]
+    - ["'", delete_forward]
+    - [o, delete]
+    - [tab, CTRL-tab]
+    # - [return, CMD-SHIFT-3] screenshot
+    - [;, menu]
+    - [a, SHIFT]
+    - [r, CTRL]
+    - [s, OPT]
+    - [t, CMD]
+    - [delete, return]
+    - [esc, caps_lock]
+    # navigation
+    - [j, pgup]
+    - [k, pgdn]
+    - [l, home]
+    - [y, end]
+    - [u, up]
+    - [n, left]
+    - [e, down]
+    - [i, right]
+    - [z, CMD-z]
+    - [x, CMD-x]  
+    - [c, CMD-c]
+    - [v, CMD-v]
+    - [f, 'CMD-[']  # browser back
+    - [p, 'CMD-]']  # browser forward
+    # mouse
+    # - [w, mouse_scroll_up]
+    # - [r, mouse_scroll_down]
+    # - [g, mouse_move_up]
+    # - [d, mouse_move_down]
+    # - [v, mouse_click_left]
+    # - [h, mouse_click_middle]
+    # - [m, mouse_click_right]
+    # - [',', mouse_move_left]
+    # - [., mouse_move_right]
+    - [/, mouse_scroll_right]
+    - [\, mouse_scroll_left]

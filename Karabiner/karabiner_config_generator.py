@@ -89,6 +89,7 @@ karabiner_map = {
     "shift": "left_shift",
     "opt": "left_option",
     "alt": "left_option",
+    "tab": "tab",
 }
 
 modifers_set = set([
